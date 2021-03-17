@@ -10,10 +10,22 @@
         </style>
     </head>
     <body>
-      <h1>Search!</h1>
+      <h1>Find pages with...</h1>
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <input type="text" name="as_q">
+            <input type="submit" value="all these words:">
+        </form>
+        <form action="https://google.com/search">
+            <input type="text" name="as_epq">
+            <input type="submit" value="this exact word or phrase:">
+        </form>
+        <form action="https://google.com/search">
+            <input type="text" name="as_oq">
+            <input type="submit" value="any of these words:">
+        </form>
+        <form action="https://google.com/search">
+            <input type="text" name="as_eq">
+            <input type="submit" value="none of these words:">
         </form>
     </body>
 </html>
