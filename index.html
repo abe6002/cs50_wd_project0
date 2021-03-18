@@ -2,41 +2,17 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <style>
-            h1 {
-              font-family: serif;
-              color: blue;
-            }
-
-            .nav {
-              background-color: white;
-              overflow: hidden;
-              margin-top: 10px;
-            }
-
-            .nav a {
-              float:center;
-              color: red;
-              text-align: center;
-              padding: 5px;
-              margin: 5px;
-              font-size: 17px;
-            }
-
-            .align {
-              width: 100%;
-              padding: 250px 0;
-              text-align: center;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
     <div class="align">
-      <div class="search">
+      <div class="header">
         <h1>Search!</h1>
+      </div>
+      <div class="form">
           <form action="https://google.com/search">
               <input type="text" name="q">
-              <input type="submit" value="Google Search">
+              <input class="button" type="submit" value="Google Search">
           </form>
       </div>
       <div class="nav">

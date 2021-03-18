@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
-        <style>
-            h1 {
-              font-family: serif;
-              color: blue;
-            }
-        </style>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-      <div>
-        <h1>Find pages with...</h1>
-          <form action="https://google.com/search">
-              <input type="text" name="as_q">
-              <input type="submit" value="all these words:">
-          </form>
-          <form action="https://google.com/search">
-              <input type="text" name="as_epq">
-              <input type="submit" value="this exact word or phrase:">
-          </form>
-          <form action="https://google.com/search">
-              <input type="text" name="as_oq">
-              <input type="submit" value="any of these words:">
-          </form>
-          <form action="https://google.com/search">
-              <input type="text" name="as_eq">
-              <input type="submit" value="none of these words:">
-          </form>
-        </div>
-        <div class="nav">
-          <a href="index.html">Back to Google Search</a>
-        </div>
+      <div class="align">
+         <div class="header">
+          <h1>Find pages with...</h1>
+         </div>
+         <div class="advanced">
+            <form action="https://google.com/search">
+                <input type="text" name="as_q">
+                <input class="button" type="submit" value="all these words:">
+            </form>
+            <form action="https://google.com/search">
+                <input type="text" name="as_epq">
+                <input class="button" type="submit" value="this exact word or phrase:">
+            </form>
+            <form action="https://google.com/search">
+                <input type="text" name="as_oq">
+                <input class="button" type="submit" value="any of these words:">
+            </form>
+            <form action="https://google.com/search">
+                <input type="text" name="as_eq">
+                <input class="button" type="submit" value="none of these words:">
+            </form>
+          </div>
+          <div class="nav">
+            <a href="index.html">Back to Google Search</a>
+          </div>
+      </div>
     </body>
 </html>
